@@ -1,0 +1,22 @@
+:root{
+    --PrincipalBlue: #8282F2;
+    --secondaryBlue: #5252A2;
+}
+.jumbotron{
+    background-color: var(--PrincipalBlue);
+}
+footer{
+    margin:10px 0px 0px 0px;
+    padding: 10px 10px 0 10px;
+    background-color:var(--secondaryBlue);
+}
+.btn{
+    background-color: var(--secondaryBlue);
+    border-color: var(--secondaryBlue);
+}
+.contenedor{
+    flex: 1 150px;
+    padding: 2px 5px 2px 5px;
+    min-height: 100%;
+
+}
